@@ -10,9 +10,9 @@
 
 ```javascript
 const CEDRIC_DUGAS = {
-  code: [Javascript, Typescript, HTML, CSS, MONGO, Graph QL],
+  code: [Javascript, Typescript, HTML, CSS, MONGO, GraphQL],
   tools: [React, Redux, Recoil, Node, Storybook, Styled-Components, Jest, Testing Library],
-  architecture: ["microservices", "micro fron-ends"],
+  architecture: [microservices, micro fron-ends],
 
 }
 ```
