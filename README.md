@@ -12,7 +12,7 @@
 const CEDRIC_DUGAS = {
   code: [Javascript, Typescript, HTML, CSS, MONGO, GraphQL],
   tools: [React, Redux, Recoil, Node, Storybook, Styled-Components, Jest, Testing Library, Module Federation],
-  architecture: [Microservices, Micro Fron-Ends],
+  architecture: [Microservices, Micro Front-Ends],
 
 }
 ```
