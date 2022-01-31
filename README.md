@@ -17,7 +17,7 @@ const CEDRIC_DUGAS = {
 }
 ```
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&&include_all_commits=true)
 
 ### About my open source projects
   
