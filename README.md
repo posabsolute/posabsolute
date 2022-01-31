@@ -1,5 +1,5 @@
 <h2> Hi, I'm Cedric Dugas! </h2>
-<p><em>Principal Software Enginner at <a href="http://www.appdirect.com">AppDirect</a>.</em></p>
+<p><em>Principal Software Developer at <a href="http://www.appdirect.com">AppDirect</a>.</em></p>
 
 
 [![Linkedin: posabsolute](https://img.shields.io/badge/-posabsolute-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/posabsolute/)](https://www.linkedin.com/in/posabsolute/)
