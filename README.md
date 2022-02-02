@@ -10,7 +10,7 @@
 
 <table border="0">
  <tr>
-    <td>
+    <td width="50%">
 
 ```javascript
 export const CEDRIC_DUGAS = {
@@ -21,12 +21,12 @@ export const CEDRIC_DUGAS = {
 }
 ```   
    </td>
-    <td>Lorem ipsum ...</td>
+    <td width="50%">![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)</td>
  </tr>
 </table>
 
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)
+
 
 ### Cool but aging projects I built
 
