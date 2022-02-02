@@ -19,6 +19,11 @@ export const CEDRIC_DUGAS = {
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)
 
+### Cool but aging projects I built
+
+* ![Inker](http://inker.position-absolute.com/) A framework to build and send transactional emails
+* ![Scrum Release Notes Mobile App](http://releasenotes.position-absolute.com/) An easy way to stay inform on how your Scrum projects are doing.
+
 ### About my open source projects
   
 Once upon a time, I was a very active open source contributor. While I am proud of my contributions, these projects are older and do not use modern best practices.
