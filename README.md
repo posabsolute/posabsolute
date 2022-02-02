@@ -8,6 +8,10 @@
 
 ###  A little more about me...  
 
+<table border="0">
+ <tr>
+    <td>
+
 ```javascript
 export const CEDRIC_DUGAS = {
   code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
@@ -15,7 +19,12 @@ export const CEDRIC_DUGAS = {
   architecture: [Microservices, Micro Front-Ends],
 
 }
-```
+```   
+   </td>
+    <td>Lorem ipsum ...</td>
+ </tr>
+</table>
+
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)
 
