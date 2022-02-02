@@ -11,7 +11,7 @@
 ```javascript
 export const CEDRIC_DUGAS = {
   code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
-  tools: [React, Redux, Recoil, Express, Storybook, Styled-Components, Jest, Testing Library, Module Federation],
+  tools: [React, Redux, Recoil, Express, Apollo, Storybook, Styled-Components, Jest, Testing Library, Module Federation],
   architecture: [Microservices, Micro Front-Ends]
 
 }
