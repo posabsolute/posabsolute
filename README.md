@@ -21,8 +21,8 @@ export const CEDRIC_DUGAS = {
 
 ### Cool but aging projects I built
 
-* ![Inker](http://inker.position-absolute.com/) A framework to build and send transactional emails
-* ![Scrum Release Notes Mobile App](http://releasenotes.position-absolute.com/) An easy way to stay inform on how your Scrum projects are doing.
+- ![Inker](http://inker.position-absolute.com/) A framework to build and send transactional emails
+- ![Scrum Release Notes Mobile App](http://releasenotes.position-absolute.com/) An easy way to stay inform on how your Scrum projects are doing.
 
 ### About my open source projects
   
