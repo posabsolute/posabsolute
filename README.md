@@ -25,6 +25,6 @@ export const CEDRIC_DUGAS = {
 
 ### About my open source projects
   
-Once upon a time, I was a very active open source contributor. While I am proud of my contributions, these projects are older and do not use modern best practices.
+Once upon a time, I was a very active open source contributor. While I am proud of my contributions, these projects are older and do not use modern best practices. The latest open source project I built was never completed (already 2 years ago), [Inker2](https://github.com/posabsolute/inker2), a service for email delivery built in Typescript.
 
 ---
