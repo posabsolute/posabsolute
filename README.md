@@ -1,5 +1,5 @@
 <h2> Hello there, I'm Cedric Dugas! </h2>
-<p><em>Currently working as a principal software developer at <a href="http://www.appdirect.com">AppDirect</a>.Focusing on platform level UI personalization and scaling UI practices within the organization.</em> </p>
+<p><em>Currently working as a principal software developer at <a href="http://www.appdirect.com">AppDirect</a>, focusing on platform level UI personalization and scaling UI practices within the organization.</em> </p>
 
 
 [![Linkedin: posabsolute](https://img.shields.io/badge/-posabsolute-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/posabsolute/)](https://www.linkedin.com/in/posabsolute/)
