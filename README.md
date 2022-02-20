@@ -1,5 +1,5 @@
-<h2> Hi, I'm Cedric Dugas! </h2>
-<p><em>Principal Software Developer at <a href="http://www.appdirect.com">AppDirect</a>.</em></p>
+<h2> Hello there, I'm Cedric Dugas! </h2>
+<p><em>Currently working as a principal software developer at <a href="http://www.appdirect.com">AppDirect</a>.</em> Focusing on platform level UI personalization and scaling UI practices within the organization.</p>
 
 
 [![Linkedin: posabsolute](https://img.shields.io/badge/-posabsolute-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/posabsolute/)](https://www.linkedin.com/in/posabsolute/)
@@ -24,6 +24,6 @@ export const CEDRIC_DUGAS = {
   
 Once upon a time, I was a very active open source contributor. While I am proud of my contributions, these projects are older and do not use modern best practices. 
 
-The latest open source project I built was never completed (already 2 years ago), [Inker2](https://github.com/posabsolute/inker2), a service for email delivery built in Typescript.
+The latest open source project I built was never completed (already 2 years ago), [Inker2](https://github.com/posabsolute/inker2), a small service for email delivery built in Typescript.
 
 ---
