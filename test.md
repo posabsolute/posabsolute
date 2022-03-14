@@ -23,7 +23,15 @@ List of available training, courses that portray to the topic.
 ### Practice 1
 
 Description
+```jsx
+const Headline = styled.h1`
+    color: ${(p) => p.color}; // short variable
+`;
 
+const Text = styled.span`
+    padding: ${({ padding }) => padding}px; // Or destructure
+`;
+```
 **Example**
 <table>
   <tr>
@@ -36,15 +44,7 @@ Description
   </tr>
   <tr>
     <td>
-```jsx
-const Headline = styled.h1`
-    color: ${(p) => p.color}; // short variable
-`;
 
-const Text = styled.span`
-    padding: ${({ padding }) => padding}px; // Or destructure
-`;
-```
     </td>
     <td>
 ```jsx
