@@ -55,8 +55,7 @@ const Headline = styled.h1`
 `;
 ```
 
-    </td>
-  </tr>
+</td></tr>
 </table>
 
 
