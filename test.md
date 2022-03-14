@@ -37,7 +37,17 @@ Description
   </tr>
   <tr>
     <td>
-asdasdasd
+      <code>
+```jsx
+const Headline = styled.h1`
+    color: ${(p) => p.color}; // short variable
+\;
+
+const Text = styled.span`
+    padding: ${({ padding }) => padding}px; // Or destructure
+`;
+```
+         </code>
     </td>
     <td>
 ```jsx
