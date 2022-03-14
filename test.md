@@ -63,9 +63,9 @@ const Headline = styled.h1\`
     <td>
         <pre>
 ```jsx
-const Headline = styled.h1\`
+const Headline = styled.h1`
     color: ${(componentProperties) => componentProperties.color};  // Too long variable
-\`;
+`;
 ```
         </pre>
     </td>
