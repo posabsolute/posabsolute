@@ -37,26 +37,15 @@ Description
   </tr>
   <tr>
     <td>
-       <pre>
-        <code class="language-javascript">
-
-const Headline = styled.h1\`
+```jsx
+const Headline = styled.h1`
     color: ${(p) => p.color}; // short variable
-\`;
+\;
 
-const Text = styled.span\`
+const Text = styled.span`
     padding: ${({ padding }) => padding}px; // Or destructure
-\`;
-            </code>
-        </pre>
-    </td>
-    <td>
-        <pre>
-            <code class="language-javascript">
-
-const Headline = styled.h1\`
-    color: ${(componentProperties) => componentProperties.color};  // Too long variable
-\`;
+`;
+```
             </code>
         </pre>
     </td>
