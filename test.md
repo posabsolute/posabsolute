@@ -41,11 +41,11 @@ Description
         <code class="language-javascript">
 
 const Headline = styled.h1\`
-  color: ${(p) => p.color}; // short variable
+    color: ${(p) => p.color}; // short variable
 \`;
 
 const Text = styled.span\`
-  padding: ${({ padding }) => padding}px; // Or destructure
+    padding: ${({ padding }) => padding}px; // Or destructure
 \`;
             </code>
         </pre>
@@ -55,7 +55,7 @@ const Text = styled.span\`
             <code class="language-javascript">
 
 const Headline = styled.h1\`
-  color: ${(componentProperties) => componentProperties.color};  // Too long variable
+    color: ${(componentProperties) => componentProperties.color};  // Too long variable
 \`;
             </code>
         </pre>
