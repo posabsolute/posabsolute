@@ -39,6 +39,7 @@ Description
     <td>
        <pre>
         <code class="language-javascript">
+
 const Headline = styled.h1`
     color: ${(p) => p.color}; // short variable
 `;
