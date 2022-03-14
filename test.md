@@ -47,8 +47,7 @@ const Text = styled.span`
 `;
 ```
 
-    </td>
-    <td>
+</td><td>
 
 ```jsx
 const Headline = styled.h1`
