@@ -25,7 +25,15 @@ List of available training, courses that portray to the topic.
 Description
 
 **Example**
+```jsx
+const Headline = styled.h1`
+    color: ${(p) => p.color}; // short variable
+\;
 
+const Text = styled.span`
+    padding: ${({ padding }) => padding}px; // Or destructure
+`;
+```
 <table>
   <tr>
     <td>
@@ -38,15 +46,7 @@ Description
   <tr>
     <td>
       <pre>
-```jsx
-const Headline = styled.h1`
-    color: ${(p) => p.color}; // short variable
-\;
 
-const Text = styled.span`
-    padding: ${({ padding }) => padding}px; // Or destructure
-`;
-```
          </pre>
     </td>
     <td>
