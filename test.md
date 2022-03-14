@@ -37,7 +37,7 @@ Description
   </tr>
   <tr>
     <td>
-      <code>
+      <pre>
 ```jsx
 const Headline = styled.h1`
     color: ${(p) => p.color}; // short variable
@@ -47,7 +47,7 @@ const Text = styled.span`
     padding: ${({ padding }) => padding}px; // Or destructure
 `;
 ```
-         </code>
+         </pre>
     </td>
     <td>
 ```jsx
