@@ -40,12 +40,12 @@ Description
        <pre>
         <code class="language-javascript">
 
-const Headline = styled.h1`
-    color: ${(p) => p.color}; // short variable
-`;
+const Headline = styled.h1\`
+  color: ${(p) => p.color}; // short variable
+\`;
 
 const Text = styled.span\`
-    padding: ${({ padding }) => padding}px; // Or destructure
+  padding: ${({ padding }) => padding}px; // Or destructure
 \`;
             </code>
         </pre>
@@ -53,6 +53,7 @@ const Text = styled.span\`
     <td>
         <pre>
             <code class="language-javascript">
+
 const Headline = styled.h1\`
   color: ${(componentProperties) => componentProperties.color};  // Too long variable
 \`;
