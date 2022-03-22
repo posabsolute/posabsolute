@@ -1,4 +1,4 @@
-<h2> Hello there, I'm Cedric Dugas! </h2>
+<h2> Meet Cedric! </h2>
 <p><em>Currently working as a principal software developer at <a href="http://www.appdirect.com">AppDirect</a>, focusing on user personalization services and scaling UI practices within the organization.</em> </p>
 
 
