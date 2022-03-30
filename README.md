@@ -10,7 +10,7 @@ export const CEDRIC_DUGAS = {
   code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
   tools: {
     frontend: [React, Redux, Storybook, Styled-Components, Jest, Testing Library, Webpack, Module Federation],
-    backend: [Express, Apollo],
+    backend: [Express, Apollo, RabbitMQ],
     ops: [Helm, Kubernetes, Docker, Jenkins],
   architecture: [Microservices, Micro Front-Ends]
 
