@@ -9,8 +9,8 @@
 export const CEDRIC_DUGAS = {
   code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
   tools: {
-    front-end: [React, Redux, Storybook, Styled-Components, Jest, Testing Library, Webpack, Module Federation],
-    back-end: [Express, Apollo]
+    frontEnd: [React, Redux, Storybook, Styled-Components, Jest, Testing Library, Webpack, Module Federation],
+    backEnd: [Express, Apollo]
     ops: [Helm, Kubernetes, Docker, Jenkins]
   architecture: [Microservices, Micro Front-Ends]
 
