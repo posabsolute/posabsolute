@@ -18,6 +18,11 @@ export const CEDRIC_DUGAS = {
 ```   
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)
 
+### Speaking Notes
+
+- [Confoo 2023 - Micro-frontends with module federation in practice](https://drive.google.com/file/d/1K0OWytOmc3tB21ohnBKv-tOQdn5xnQwY/view?usp=sharing)
+
+
 ### Cool but aging projects I built
 
 - [Inker](http://inker.position-absolute.com/) - A framework to build and send transactional emails
