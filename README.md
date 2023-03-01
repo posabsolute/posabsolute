@@ -13,7 +13,6 @@ export const CEDRIC_DUGAS = {
     backend: [Express, Apollo, RabbitMQ],
     ops: [Helm, Kubernetes, Docker, Jenkins],
   architecture: [Microservices, Micro Front-Ends]
-
 }
 ```   
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)
