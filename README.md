@@ -20,6 +20,7 @@ export const CEDRIC_DUGAS = {
 ### Speaking Notes
 
 - [Confoo 2023 - Micro-frontends with module federation in practice](https://drive.google.com/file/d/1K0OWytOmc3tB21ohnBKv-tOQdn5xnQwY/view?usp=sharing)
+- [JS-Montreal 2023 - Building an AI Chatbot With Node.js](https://drive.google.com/file/d/1yuiC54cJAdFXVi_fF-AKS8fjm1Ix-yp6/view?usp=sharing)
 
 
 ### Cool but aging projects I built
