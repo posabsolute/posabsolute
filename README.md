@@ -1,5 +1,5 @@
 <h2> Meet Cedric! </h2>
-<p><em>Currently working as a principal software developer at <a href="http://www.appdirect.com">AppDirect</a>, focusing on user personalization services and scaling UI practices within the organization.</em> </p>
+<p><em>Currently working as a principal software developer at <a href="http://www.appdirect.com">AppDirect</a>, focusing on scaling UI practices within the organization and user personalization services.</em> </p>
 
 
 [![Linkedin: posabsolute](https://img.shields.io/badge/-posabsolute-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/posabsolute/)](https://www.linkedin.com/in/posabsolute/)
