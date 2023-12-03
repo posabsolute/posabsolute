@@ -1,10 +1,6 @@
 <h2> Meet Cedric! </h2>
 <p><em>Currently working as a principal software developer, focusing on scaling UI practices and user personalization services within the organization.</em> </p>
 
-
-[![Linkedin: posabsolute](https://img.shields.io/badge/-posabsolute-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/posabsolute/)](https://www.linkedin.com/in/posabsolute/)
-[![GitHub posabsolute](https://img.shields.io/github/followers/posabsolute?label=follow&style=social)](https://github.com/posabsolute)
-
 ```javascript
 export const CEDRIC = {
   code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
