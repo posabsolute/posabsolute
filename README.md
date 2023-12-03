@@ -11,7 +11,6 @@ export const CEDRIC = {
   architecture: [Microservices, Micro Front-Ends]
 }
 ```   
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)
 
 ### Speaking Notes
 
@@ -30,4 +29,4 @@ Once upon a time, I was a very active open source contributor. While I am proud 
 
 The latest open source project I built was never completed (already 2 years ago), [Inker2](https://github.com/posabsolute/inker2), a small service for email delivery built in Typescript.
 
----
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)
