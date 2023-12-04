@@ -25,7 +25,7 @@ export const CEDRIC = {
 
 ### Blog Posts
 
-For many years I maintained **position-absolute.com**, it started at the height of jQuery and was a great way to share my knowledge. I have since moved on to other things and the site is no longer maintained. I have kept a few of my favorite posts here.
+For many years I maintained **position-absolute.com**, it started at the height of jQuery and was a great way to share my adventures. I have kept a few of my favorite posts here.
 
 - [The Controlled Input Dilemma in React & Redux](./blog/controlled-inputs.md) - January 28, 2016
 - [Reflecting on the Sale of a Side Project: The Journey of WeddingDeck](./blog/sideproject.md) - November 13, 2013
