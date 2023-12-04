@@ -23,6 +23,17 @@ export const CEDRIC = {
 - [Inker](http://inker.position-absolute.com/) - A framework to build and send transactional emails
 - [Scrum Release Notes Mobile App](http://releasenotes.position-absolute.com/) - An easy way to stay inform on how your Scrum projects are doing.
 
+### Blog Posts
+
+For many years I maintained **position-absolute.com**, it started at the height of jQuery and was a great way to share my knowledge. I have since moved on to other things and the site is no longer maintained. I have kept a few of my favorite posts here.
+
+- [The Controlled Input Dilemma in React & Redux](./blog/controlled-inputs.md) - January 28, 2016
+- [Reflecting on the Sale of a Side Project: The Journey of WeddingDeck](./blog/sideproject.md) - November 13, 2013
+- [Navigating the Quirks of IE6: A Developer's Dilemma](./blog/ie6.md) - April 28, 2009
+- [Where front-end web development will be in 5 years](./blog/in-5-years.md) - March 30, 2009
+- [The front-end developer's burden](./blog/front-end-developer-burden.md) - September 23, 2008
+
+
 ### About my open source projects
   
 Once upon a time, I was a very active open source contributor. While I am proud of my contributions, these projects are older and do not use modern best practices. 
