@@ -5,10 +5,10 @@
 export const CEDRIC = {
   code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
   tools: {
-    frontend: [React, Redux, Storybook, Styled-Components, Jest, Testing Library, Webpack, Module Federation],
-    backend: [Express, Apollo, RabbitMQ],
+    frontend: [React, React-Query, TanStack Table, Storybook, CSS Modules, Styled-Components, Jest, Testing Library, Webpack, Module Federation],
+    backend: [Express, Apollo, RabbitMQ, Kafka],
     ops: [Helm, Kubernetes, Docker, Jenkins],
-  architecture: [Microservices, Micro Front-Ends]
+  architecture: [Microservices, Micro Front-Ends, Magnificient Monoliths]
 }
 ```   
 
