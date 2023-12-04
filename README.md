@@ -38,6 +38,6 @@ For many years I maintained **position-absolute.com**, it started at the height 
   
 Once upon a time, I was a very active open source contributor. While I am proud of my contributions, these projects are older and do not use modern best practices. 
 
-The latest open source project I built was never completed (already 2 years ago), [Inker2](https://github.com/posabsolute/inker2), a small service for email delivery built in Typescript.
+The latest open source project I built was never completed (already 2 years ago), [Inker2](https://github.com/posabsolute/inker2), a small service for email delivery built in Typescript. I also created and maintained for a couple of years one of the most popular [jQuery form validation libraries](https://github.com/posabsolute/jQuery-Validation-Engine); it was launched on Google Code in 2011.
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=posabsolute&show_icons=true&theme=radical&include_all_commits=true)
