@@ -1,7 +1,7 @@
 # Where front-end web development will be in 5 years?
 *Date: March 30, 2009*
 
-> Note: Interstingly enough, this was written at a time where I didn't undersand how to evolve my career, now that I know, I feel being "just" a senior engineer is often the most appealing position of them all.
+> Note: Reflecting on this post, it's fascinating to realize that when I wrote this, I was still figuring out the direction of my career. Now, with a clearer understanding, I've come to appreciate that sometimes, the role of a senior engineer can be the most fulfilling and appealing position one can hold.
 
 
 As the year draws to a close, it's natural to ponder about the future. Like many, I've set personal goals for the new year (yes, including losing 5 pounds!), but professionally, I'm particularly intrigued by where front-end development might be heading in the next five years.
