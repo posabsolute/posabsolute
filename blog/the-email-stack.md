@@ -28,20 +28,11 @@ React-Email produces the cleanest email templates I ever witnessed (example belo
 
 ```jsx
 <Container style={container}>
-  <Section style={logoContainer}>
-    <Img
-      src={baseUrl + '/static/slack-logo.png'}
-      width="120"
-      height="36"
-      alt="Slack"
-    />
-  </Section>
   <Heading style={h1}>Confirm your email address</Heading>
   <Text style={heroText}>
     Your confirmation code is below - enter it in your open browser window
     and we'll help you get signed in.
   </Text>
-
   <Section style={codeBox}>
     <Text style={confirmationCodeText}>{validationCode}</Text>
   </Section>
@@ -68,17 +59,6 @@ React-Email produces the cleanest email templates I ever witnessed (example belo
             <Link href="/">
               <Img
                 src={baseUrl + '/static/slack-facebook.png'}
-                width="32"
-                height="32"
-                alt="Slack"
-                style={socialMediaIcon}
-              />
-            </Link>
-          </Column>
-          <Column>
-            <Link href="/">
-              <Img
-                src={baseUrl + '/static/slack-linkedin.png'}
                 width="32"
                 height="32"
                 alt="Slack"
