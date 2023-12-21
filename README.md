@@ -8,7 +8,7 @@ export const CEDRIC = {
     frontend: [React, React-Query, TanStack Table, Storybook, CSS Modules, Styled-Components, Jest, Testing Library, Webpack, Module Federation],
     backend: [Express, Apollo, RabbitMQ, Kafka],
     ops: [Helm, Kubernetes, Docker, Jenkins],
-  architecture: ["Familiar with Micro Services and Monolith setups"]
+  architecture: ["Familiar with Micro Services challenges and Monolith Setups"]
 }
 ```   
 
