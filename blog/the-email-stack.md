@@ -1,20 +1,20 @@
 # Navigating the Complexities of Transactional Email Development in 2024: A Historical Perspective and Some Solutions
 
-Email development has historically been a complex field, marked by the challenges of dealing with inconsistent HTML rendering across various email clients. This complexity was epitomized when Outlook transitioned from the IE6 engine to Microsoft Word's rendering engine, amplifying the difficulties in creating consistent email layouts.
+Email development has historically been a complex field, marked by the challenges of dealing with inconsistent HTML rendering across various email clients. This reached a boiling point when Outlook transitioned from the IE6 engine to Microsoft Word's rendering engine around 2009, amplifying the difficulties in creating consistent email layouts.
 
  As you can guess, the community went crazy. Multiple blog posts and campaigns were launched to try to convince Microsoft to take a step back. Unfortunately, the opposite happened. Microsoft confirmed their choice and published a blog article [The Power of Word in Outlook](http://web.archive.org/web/20090627004005/http://blogs.msdn.com/outlook/archive/2009/06/24/the-power-of-word-in-outlook.aspx). It can be be summarized in one simple quote:
 
-"We've made the decision to continue to use Word for creating email messages because we believe it's the best email authoring experience around…"
+> "We've made the decision to continue to use Word for creating email messages because we believe it's the best email authoring experience around…"
 
-And just like that, the world changed; floats were gone, layout with tables it was, and emails never fully recovered, even to this day.
+And just like that, *the world changed*; floats were gone, layout with tables it was, and emails never fully recovered, even to this day.
 
 ## The Arduous Journey of Email Development
 
 Crafting emails that can render consistently across various clients (outlook, Gmail, mobile clients, etc.) means resorting to unconventional HTML and CSS practices compared to modern practices; in a nutshell, you need to use tables for layout and inline style everything.
 
-Eight years ago, I created [Inker](http://inker.position-absolute.com/); with it, I tried making the ultimate toolbox for building and sending emails. It had it all: strong templating with the Ink framework as a foundation, a bunch of CLI commands to test and generate emails and a service to send them. It had everything but traction, and no one ever adopted it.
+Eight years ago, I created [Inker](http://inker.position-absolute.com/); with it, I tried making the ultimate toolbox for building and sending emails. It had it all: strong templating with the Ink framework as a foundation, a bunch of CLI commands to test and generate emails and a service to send them. *It had everything but traction, and no one ever adopted it*.
 
-It seems transactional emails is this thing every company needs to do, but almost nobody knows how or wants to do it, and since it's so dirty, let's do it dirty. However, I wouldn't say this was the only reason why Inker failed, but that's for another time.
+> It seems transactional emails is this thing every company needs to do, but almost nobody knows how or wants to do it, and since it's so dirty, let's do it dirty. However, I wouldn't say this was the only reason why Inker failed, but that's for another time.
 
 ## Modern Solutions: A Search for the Email Holy Grail
 
@@ -51,14 +51,6 @@ React-Email produces the cleanest email templates I ever witnessed (example belo
   </Text>
   <Section>
     <Row style={footerLogos}>
-      <Column style={{ width: '66%' }}>
-        <Img
-          src={baseUrl + '/static/slack-logo.png'}
-          width="120"
-          height="36"
-          alt="Slack"
-        />
-      </Column>
       <Column>
         <Row>
           <Column>
@@ -111,7 +103,12 @@ This is as long as you thoroughly validate the variables injected into the email
 
 You have a platform that allows your customers to modify transactional email templates sent to their own customers? Now, things become much more complicated.
 
-Essentially, there is no way to execute a customer JSX template in a fully secure way on your server; sure, you could use an Isolate or JSX render, but it's only as safe as these projects are, and do you want to take that risk for your transactional emails stack? I'm guessing you don't.
+Essentially, there is no way to execute a customer JSX template in a fully secure way on your server; sure, you could use an [Isolate](https://github.com/laverdet/isolated-vm) or [JsxParser](https://www.npmjs.com/package/react-jsx-parser), but it's only as safe as these projects are, and do you want to take that risk for your transactional emails stack? I'm guessing you don't.
+
+```
+// Example of how to render email with jsxParser
+ReacEmail.render(<JsxParser jsx={jsxString} components={reactEmailComponents} bindings={{...variablesObject, ...emailStyles}} />)
+```
 
 You could also pre-render the JSX email to an HTML soup, but then what about the email variables? You must add a layer on the last-mile delivery to inject those variables into the email before it's sent. Yuck.
 
@@ -154,18 +151,19 @@ It's alright, and if you're not a react shop, this is your best way to build gre
 
 ## Sending Transaction Emails
 
-Almost all web frameworks includes a library to send email, and most email service providers (Amazon SES and etc) provide also their own SDK, but two problemes emerge:
-You still need to compile the email with the dynamic variable which needs to be done prior to using those libraries
-Almost none of those libraries provides an optional queue / retry mechanism if it fails.
-For me, it's almost unconceivable that my customers don't receive their emails, think a receipt for example, and those service email providers that you use to send emails will be down, and it means some emails wont be sent.
+Almost all web frameworks include a library to send email, and most email service providers (Amazon SES, etc) also provide their own SDK, but two problems emerge:
+* You still need to compile the email with the dynamic variable, which needs to be done before using those libraries
+* Few of those libraries provide an optional queue/retry mechanism if it fails.
+For me, it's almost inconceivable that my customers won't receive their emails. Think of a receipt; when those service email providers you use to send emails are down, your customers won't receive their receipt.
 
 You need an optional queue and retry mechanism to manage this issue, with a bunch of integration with Redis, Kafka, Rabbit, etc. 
 
-Furthermore, although using an SDK is all well and good in your monolith, at some point most companies will have multiple services, and those services will also need to send emails. Those services might be in different languages, but your last template generation will probably be in 1 specific language.
+Furthermore, although using an SDK is all well and good in your monolith, at some point, most companies will have multiple services, and those services will also need to send emails. Those services might be in different languages, but your last template generation will probably be in 1 specific language.
 
 It would be awesome to have a library that can operate either as an SDK integrated inside a service or can be started as its service, exposing API and events integration to send transactional emails.
 
-The need for a more holistic solution is evident for me — one that not only aids in creating email templates but also manages the intricacies of sending them, including robust queuing mechanisms.
+The need for a more holistic solution is evident to me — one that not only aids in creating email templates but also manages the intricacies of sending them, including robust queuing mechanisms.
+
 
 ## Conclusion
 
