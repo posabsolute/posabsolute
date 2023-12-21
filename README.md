@@ -27,7 +27,7 @@ export const CEDRIC = {
 
 For many years I maintained **position-absolute.com**, it started at the height of jQuery and was a great way to share my adventures. I have kept a few of my favorite posts here.
 
-- [Navigating Transactional Email Development in 2024: A Historical Perspective and Some Solutions](./blog/the-email-stack.md) - January 2, 2024
+- [Navigating Transactional Email Development: A Historical Perspective and Some Solutions](./blog/the-email-stack.md) - January 2, 2024
 - [The Controlled Input Dilemma in React & Redux](./blog/controlled-inputs.md) - January 28, 2016
 - [Reflecting on the Sale of a Side Project: The Journey of WeddingDeck](./blog/sideproject.md) - November 13, 2013
 - [Navigating the Quirks of IE6: A Developer's Dilemma](./blog/ie6.md) - April 28, 2009
