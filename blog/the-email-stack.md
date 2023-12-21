@@ -142,7 +142,7 @@ Furthermore, although using an SDK is all well and good in your monolith, at som
 
 It would be awesome to have a library that can operate either as an SDK integrated inside a service or can be started as its service, exposing API and events integration to send transactional emails.
 
-The need for a more holistic solution is evident to me — one that not only aids in creating email templates but also manages the intricacies of sending them, including robust queuing mechanisms.
+> The need for a more holistic solution is evident to me — one that not only aids in creating email templates but also manages the intricacies of sending them, including robust queuing mechanisms.
 
 
 ## Conclusion
