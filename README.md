@@ -21,8 +21,8 @@ export const CEDRIC = {
 
 ### Cool but aging projects I built
 
-- [Inker](http://inker.position-absolute.com/) - 2015 - A framework to build and send transactional emails
-- [Scrum Release Notes Mobile App](http://releasenotes.position-absolute.com/) - 2016 - An easy way to stay inform on how your Scrum projects are doing.
+- [Inker](http://inker.position-absolute.com/) - A framework to build and send transactional emails (2015).
+- [Scrum Release Notes Mobile App](http://releasenotes.position-absolute.com/) - An easy way to stay inform on how your Scrum projects are doing (2016).
 
 ### Blog Posts
 
