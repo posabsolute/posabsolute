@@ -6,7 +6,7 @@ export const CEDRIC = {
   code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
   tools: {
     frontend: [React, React-Query, TanStack Table, Storybook, CSS Modules, Styled-Components,
-              Jest, Testing Library, Webpack, Module Federation],
+               Jest, Testing Library, Webpack, Module Federation],
     backend: [Express, Apollo, RabbitMQ, Kafka],
     ops: [Helm, Kubernetes, Docker, Jenkins],
   architecture: ["Familiar with Micro Services challenges and Monolith Setups"]
