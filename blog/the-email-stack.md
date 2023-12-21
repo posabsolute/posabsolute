@@ -85,7 +85,7 @@ You have a platform that allows your customers to modify transactional email tem
 
 Essentially, there is no way to execute a customer JSX template in a fully secure way on your server; sure, you could use an [Isolate](https://github.com/laverdet/isolated-vm) or [JsxParser](https://www.npmjs.com/package/react-jsx-parser), but it's only as safe as these projects are, and do you want to take that risk for your transactional emails stack? I'm guessing you don't.
 
-```javascript
+```js
 // Example of how to render email with jsxParser
 ReacEmail.render(<JsxParser jsx={jsxString} components={reactEmailComponents} bindings={{...variablesObject, ...emailStyles}} />)
 ```
@@ -109,7 +109,7 @@ If your company's approach to transactional emails involves using fixed, unmodif
 - **Cross-Client Compatibility**: Addresses the varying rendering engines of email clients, significantly reducing the need for client-specific hacks or adjustments.
 - **Community and Tooling**: Comes with a supportive community and a range of tools, including an online editor and plugins, which enhance the development workflow.
 
-```html
+```jsx
 <mjml>
   <mj-body>
     <mj-section>
