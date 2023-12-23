@@ -23,6 +23,7 @@ export const CEDRIC = {
 
 - [Inker](http://inker.position-absolute.com/) - A framework to build and send transactional emails (2015).
 - [Scrum Release Notes Mobile App](http://releasenotes.position-absolute.com/) - An easy way to stay inform on how your Scrum projects are doing (2016).
+- [Grint Generate](https://github.com/Grunt-generate/grunt-generate) - generates files from user-defined templates (2014).
 
 ### Blog Posts
 
