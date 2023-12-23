@@ -9,7 +9,7 @@ export const CEDRIC = {
                Jest, Testing Library, Webpack, Module Federation],
     backend: [Express, Apollo, RabbitMQ, Kafka],
     ops: [Helm, Kubernetes, Docker, Jenkins],
-  architecture: ["Familiar with Micro Services challenges and Monolith Setups"]
+  architecture: ["Familiar with Micro Services and Monolith Setups"]
 }
 ```   
 
