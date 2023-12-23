@@ -1,5 +1,5 @@
 <h2> Meet Cedric! </h2>
-<p><em>Currently working as a principal software developer, focusing on scaling UI practices and platform personalization services within the organization.</em> </p>
+<p><em>Currently working as a principal software developer, focusing on scaling UI practices and platform personalization services.</em> </p>
 
 ```javascript
 export const CEDRIC = {
