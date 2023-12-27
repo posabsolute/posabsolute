@@ -12,8 +12,8 @@ export const CEDRIC = {
   experience: [
     "Microservices and Monolithic architectures: Designing scalable systems."
     "Domain-Driven API Design, serverless architectures, Monolith to Microservices transitions.",
-    "Containerization and orchestration with Docker, Kubernetes.",
-    "Implementing micro-frontends in large organizations for UI flexibility."
+    "Implementing micro-frontends and UI practices in large organizations for UI flexibility."
+    "Containerization and orchestration with Docker, Kubernetes."
   ],
 }
 ```   
