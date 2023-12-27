@@ -9,7 +9,16 @@ export const CEDRIC = {
                Jest, Testing Library, Webpack, Module Federation],
     backend: [Express, Apollo, RabbitMQ, Kafka],
     ops: [Helm, Kubernetes, Docker, Jenkins],
-  architecture: ["Familiar with Micro Services and Monolith Setups"]
+  experience: [
+    "Proven track record in implementing micro-frontends in large organizations, enabling modular and flexible UI development."
+    "Proficient in Microservices architecture, adept at designing scalable, distributed systems.",
+    "Proficient in Monolithic architecture, with a strong understanding of its strengths and limitations.",
+    "Experience in transitioning systems from Monolithic to Microservices, focusing on scalability and maintainability.",
+    "Skilled in Domain-Driven Design (DDD) principles, applying strategic patterns to solve complex business problems.",
+    "Knowledgeable in serverless architecture, leveraging cloud services for efficient resource management.",
+    "Familiar with Containerization and Orchestration using Docker and Kubernetes, ensuring consistent deployment and scalability.",
+    "Hands-on experience with API design, including RESTful services and GraphQL, for effective client-server communication."
+  ],
 }
 ```   
 
