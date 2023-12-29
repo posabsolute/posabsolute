@@ -12,6 +12,7 @@ export const CEDRIC = {
   experience: [
     "Microservices and Monolithic architectures: Designing scalable systems."
     "Domain-Driven API Design, serverless architectures, Monolith to Microservices transitions.",
+    "Expertise in building single page applications with modern javascript frameworks.",
     "Implementing micro-frontends and UI practices in large organizations for UI flexibility."
     "Containerization and orchestration with Docker, Kubernetes."
   ],
