@@ -10,10 +10,10 @@ export const CEDRIC = {
     backend: [Express, Apollo, RabbitMQ, Kafka],
     ops: [Helm, Kubernetes, Docker, Jenkins],
   experience: [
-    "Microservices and Monolithic architectures: Designing scalable systems."
-    "Domain-Driven API Design, serverless architectures, Monolith to Microservices transitions.",
     "Expertise in building single page applications with modern javascript frameworks.",
     "Implementing micro-frontends and UI practices in large organizations for UI flexibility."
+    "Microservices and Monolithic architectures: Designing scalable systems."
+    "Domain-Driven API Design, serverless architectures, Monolith to Microservices transitions.",
     "Containerization and orchestration with Docker, Kubernetes."
   ],
 }
