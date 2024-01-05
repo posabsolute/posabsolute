@@ -11,10 +11,10 @@ export const CEDRIC = {
     ops: [Helm, Kubernetes, Docker, Jenkins],
   experience: [
     "Expertise in building single page applications with modern javascript frameworks.",
-    "Implementing micro-frontends and UI practices in large organizations for UI flexibility."
-    "Microservices and Monolithic architectures: Designing scalable systems."
+    "Implementing micro-frontends and UI practices in large organizations for UI flexibility.",
+    "Microservices and Monolithic architectures: Designing scalable systems.",
     "Domain-Driven API Design, serverless architectures, Monolith to Microservices transitions.",
-    "Containerization and orchestration with Docker, Kubernetes."
+    "Containerization and orchestration with Docker, Kubernetes.",
   ],
 }
 ```   
