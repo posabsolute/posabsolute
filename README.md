@@ -37,6 +37,7 @@ For many years I maintained **position-absolute.com**, it started at the height 
 
 - [Navigating Transactional Email Development: A Historical Perspective and Some Solutions](https://posabsolute.github.io/2024/01/02/the-email-stack.html) - January 2, 2024
 - [Exploring Micro-Frontends with Module Federation: Insights from Practice](https://posabsolute.github.io/2023/05/06/micro-frontend.html)  - May 15, 2023
+- [Rethinking Workplace Communication: Beyond the Chaos of Constant Chats](https://posabsolute.github.io/2016/06/21/about-channels.html) - June 21, 2016
 - [The Controlled Input Dilemma with React & Redux](https://posabsolute.github.io/2016/01/28/controlled-inputs.html) - January 28, 2016
 - [Reflecting on the Sale of a Side Project: The Journey of WeddingDeck](https://posabsolute.github.io/2013/11/13/sideproject.html) - November 13, 2013
 - [Navigating the Quirks of IE6: A Developer's Dilemma](https://posabsolute.github.io/2009/04/28/ie6.html) - April 28, 2009
