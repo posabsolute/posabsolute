@@ -2,7 +2,7 @@
 <p><em>Currently working as a principal software developer, leading a team focused on scaling UI practices and building platform personalization services.</em> </p>
 
 ```javascript
-export const this_developer = {
+export const DEV = {
   code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
   tools: {
     frontend: [React, React-Query, TanStack Table, Storybook, CSS Modules, Styled-Components,
