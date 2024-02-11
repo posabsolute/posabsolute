@@ -1,4 +1,4 @@
-<h2> Meet Cedric! </h2>
+
 <p><em>Currently working as a principal software developer, leading a team focused on scaling UI practices and building platform personalization services.</em> </p>
 
 ```javascript
