@@ -2,7 +2,7 @@
 
 Email development has historically been a complex field, marked by the challenges of dealing with inconsistent HTML rendering across various email clients. This reached a boiling point when Outlook transitioned from the IE6 engine to Microsoft Word's rendering engine around 2009, amplifying the difficulties in creating consistent email layouts.
 
- As you can guess, the community went crazy. Multiple blog posts and campaigns were launched to try to convince Microsoft to take a step back. Unfortunately, the opposite happened. Microsoft confirmed their choice and published a blog article [The Power of Word in Outlook](http://web.archive.org/web/20090627004005/http://blogs.msdn.com/outlook/archive/2009/06/24/the-power-of-word-in-outlook.aspx). It can be be summarized in one simple quote:
+ As you can guess, the community went crazy. Multiple blog posts and campaigns were launched to try to convince Microsoft to take a step back. Unfortunately, the opposite happened. Microsoft confirmed their choice and published a blog article [The Power of Word in Outlook](http://web.archive.org/web/20090627004005/http://blogs.msdn.com/outlook/archive/2009/06/24/the-power-of-word-in-outlook.aspx). It can be summarized in one simple quote:
 
 > "We've made the decision to continue to use Word for creating email messages because we believe it's the best email authoring experience around…"
 
@@ -10,11 +10,11 @@ And just like that, *the world changed*; floats were gone, layout with tables it
 
 ## The Arduous Journey of Email Development
 
-Crafting emails that can render consistently across various clients (outlook, Gmail, mobile clients, etc.) means resorting to unconventional HTML and CSS practices compared to modern practices; in a nutshell, you need to use tables for layout and inline style everything.
+Crafting emails that can render consistently across various clients (Outlook, Gmail, mobile clients, etc.) means resorting to unconventional HTML and CSS practices compared to modern practices; in a nutshell, you need to use tables for layout and inline style everything.
 
 Eight years ago, I created [Inker](http://inker.position-absolute.com/); with it, I tried making the ultimate toolbox for building and sending emails. It had it all: strong templating with the Ink framework as a foundation, a bunch of CLI commands to test and generate emails and a service to send them. *It had everything but traction, and no one ever adopted it*.
 
-> It seems transactional emails is this thing every company needs to do, but almost nobody knows how or wants to do it, and since it's so dirty, let's do it dirty. However, I wouldn't say this was the only reason why Inker failed, but that's for another time.
+> It seems transactional emails is this thing every company needs to do, but almost nobody knows how or wants to do it, and since it's so dirty, let's do it dirty. However, this wasn't the only reason why Inker failed, but that's for another time.
 
 ## Modern Solutions: A Search for the Email Holy Grail
 
@@ -77,9 +77,9 @@ React-Email produces the cleanest email templates I ever witnessed (example belo
 
 If you control the entire email codebase, as in, your customer cannot build/modify their own transactional email that are then stored in a DB; this solution makes a lot of sense. 
 
-This is as long as you thoroughly validate the variables injected into the email JSX template. This is still JavaScript, executed on your server. It's your javascript, but email variables (customer name, for example) could come from a variety of sources and could be an attack vector on your server.
+This is as long as you thoroughly validate the variables injected into the email JSX template. This is still JavaScript executed on your server. It's your javascript, but email variables (customer name, for example) could come from a variety of sources and could be an attack vector on your server.
 
-##### What about if I want to enable an online email editor to allow email templates to be modified?
+##### What about if I want to allow an online email editor to modify email templates?
 
 You have a platform that allows your customers to modify transactional email templates sent to their own customers? Now, things become much more complicated.
 
@@ -92,11 +92,11 @@ ReacEmail.render(<JsxParser jsx={jsxString} components={reactEmailComponents} bi
 
 You could also pre-render the JSX email to an HTML soup, but then what about the email variables? You must add a layer on the last-mile delivery to inject those variables into the email before it's sent. Yuck.
 
-There is only one solution I can think of: serverless functions. But this feels too hard for what this provides, I want simple and elegant.
+There is only one solution I can think of, serverless functions. But this feels too hard for what this provides; I want simple and elegant.
 
 #### Should you use React-Email and JSX-Email
 
-If your company's approach to transactional emails involves using fixed, unmodifiable templates that are designed to be populated with variables at the time of sending, then adopting React-Email or JSX-Email is a strong choice. These tools are particularly well-suited for scenarios where the email templates are not subject to customization by the end user, and only need dynamic variable insertion. The developer experience provided by React-Email and JSX-Email is outstanding, offering streamlined and efficient template creation. 
+If your company's approach to transactional emails involves using fixed, unmodifiable templates that are designed to be populated with variables at the time of sending, then adopting React-Email or JSX-Email is a strong choice. These tools are particularly well-suited for scenarios where the email templates are not subject to customization by the end user and only need dynamic variable insertion. The developer experience provided by React-Email and JSX-Email is outstanding, offering streamlined and efficient template creation. 
 
 ### MJML: Streamlining Responsive Email Design
 
@@ -125,11 +125,11 @@ If your company's approach to transactional emails involves using fixed, unmodif
 
 #### Passing Dynamic variables to MJML
 
-Despite it's strengths, MJML require supplementation with templating engines like Handlebars.js, Mustache.js, or EJS to handle dynamic content, adding a layer of complexity to the process.
+Despite its strengths, MJML requires supplementation with templating engines like Handlebars.js, Mustache.js, or EJS to handle dynamic content, adding a layer of complexity to the process.
 
 It's alright, and if you're not a react shop, this is your best way to build great email templates; it's not the holy grail, but it's alright.
 
-## Sending Transaction Emails
+## Sending Transactional Emails
 
 Almost all web frameworks include a library to send email, and most email service providers (Amazon SES, etc) also provide their own SDK, but two problems emerge:
 * You still need to compile the email with the dynamic variable, which needs to be done before using those libraries
