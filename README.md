@@ -35,6 +35,7 @@ export const DEV = {
 
 For many years I maintained **position-absolute.com**, it started at the height of jQuery and was a great way to share my adventures. I have kept a few of my favorite posts here.
 
+- [Exploring the Future of AI in Web Interfaces: Beyond Chatbots](https://posabsolute.github.io/2024/03/17/ai-txt.html) - March 17, 2024
 - [Navigating Transactional Email Development: A Historical Perspective and Some Solutions](https://posabsolute.github.io/2024/01/02/the-email-stack.html) - January 2, 2024
 - [Exploring Micro-Frontends with Module Federation: Insights from Practice](https://posabsolute.github.io/2023/05/06/micro-frontend.html)  - May 15, 2023
 - [Rethinking Workplace Communication: Beyond the Chaos of Constant Chats](https://posabsolute.github.io/2016/06/21/about-channels.html) - June 21, 2016
