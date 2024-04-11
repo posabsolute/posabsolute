@@ -3,11 +3,11 @@
 
 ```javascript
 export const DEV = {
-  code: [Javascript, Typescript, HTML, CSS, Node, MONGO, GraphQL],
+  code: [Javascript, Typescript, HTML, CSS, NO-SQL DB],
   tools: {
     frontend: [React, React-Query, TanStack Table, Storybook, CSS Modules, Styled-Components,
                Jest, Testing Library, Webpack, Module Federation],
-    backend: [Express, Apollo, RabbitMQ, Kafka],
+    backend: [Node, Express, Apollo, GraphQL, RabbitMQ, Kafka, Mongo],
     ops: [Helm, Kubernetes, Docker, Jenkins],
   experience: [
     "Expertise in building single page applications with modern javascript frameworks.",
