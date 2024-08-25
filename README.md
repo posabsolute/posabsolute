@@ -33,7 +33,7 @@ export const DEV = {
 
 ### Blog Posts
 
-For many years I maintained **position-absolute.com**, it started at the height of jQuery and was a great way to share my adventures. I have kept a few of my favorite posts here.
+For many years I maintained **position-absolute.com**, started at the height of jQuery, it was a great way to share my adventures. I have kept a few of my favorite posts here.
 
 - [Exploring Cloudflare Workers](https://posabsolute.github.io/2024/05/28/cloudflare-worker.html) - May 28, 2024
 - [Exploring the Future of AI in Web Interfaces: Beyond Chatbots](https://posabsolute.github.io/2024/03/17/ai-txt.html) - March 17, 2024
