@@ -50,7 +50,7 @@ For many years I maintained **position-absolute.com**, started at the height of 
   
 Once upon a time, I was a very active open source contributor. While I am proud of my contributions, these projects are older and do not use modern best practices. 
 
-The latest open source project was never completed (already 5 years ago), [Inker2](https://github.com/posabsolute/inker2), a small service for email delivery built in Typescript. 
+The latest open source project was never completed (already 4 years ago), [Inker2](https://github.com/posabsolute/inker2), a small service for email delivery built in Typescript. 
 
 I also created and maintained for a couple of years one of the most popular [jQuery form validation](https://github.com/posabsolute/jQuery-Validation-Engine) library; it was launched on Google Code in 2011.
 
