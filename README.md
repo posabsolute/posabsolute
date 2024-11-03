@@ -13,7 +13,7 @@ export const DEV = {
     "Expertise in building single page applications with modern javascript frameworks.",
     "Implementing micro-frontends and UI practices in large organizations for UI flexibility.",
     "Domain-Driven API Design, building node services, Monolith to Microservices transitions.",
-    "Containerization and orchestration with Docker, Kubernetes.",
+    "Containerization and orchestration with Docker & Kubernetes.",
   ],
 }
 ```   
