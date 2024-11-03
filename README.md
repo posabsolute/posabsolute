@@ -26,8 +26,8 @@ export const DEV = {
 
 ### Cool but aging projects
 
-- [Inker](http://inker.position-absolute.com/) - A framework to build and send transactional emails (2015).
-- [Scrum Release Notes Mobile App](http://releasenotes.position-absolute.com/) - An easy way to stay informed on how your scrum projects are doing (2016).
+- [Inker](https://posabsolute.github.io/inker/) - A framework to build and send transactional emails (2015).
+- [Scrum Release Notes Mobile App](https://posabsolute.github.io/release-notes/) - An easy way to stay informed on how your scrum projects are doing (2016).
 - [Grunt Generate](https://github.com/Grunt-generate/grunt-generate) - Generates files from user-defined templates (2014).
 
 ### Blog Posts
