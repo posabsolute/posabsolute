@@ -24,6 +24,10 @@ export const DEV = {
 - [Building an AI Chatbot With Node.js](https://drive.google.com/file/d/1yuiC54cJAdFXVi_fF-AKS8fjm1Ix-yp6/view?usp=sharing) - JS-Montreal 2023
 
 
+### Current side project
+
+- [Zork UI](https://zork.arobase.co) - The original 1980 Zork I running untouched in the browser, wrapped in 110 animated pixel-art scenes that track the live game. Built entirely with Claude Fable 5 - [source](https://github.com/posabsolute/zork-ui) (2026).
+
 ### Cool but aging projects
 
 - [Inker](https://posabsolute.github.io/inker/) - A framework to build and send transactional emails (2015).
