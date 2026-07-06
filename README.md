@@ -1,5 +1,5 @@
 
-<p><em>Principal software developer. I lead a team that scales UI practices across a large organization and builds platform personalization services.</em></p>
+<p><em>I work as a principal software developer, leading a team that looks after UI practices and platform personalization services in a large organization.</em></p>
 
 ```javascript
 export const DEV = {
