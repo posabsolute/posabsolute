@@ -23,7 +23,7 @@ export const DEV = {
 ### Talks & Writing
 
 - [Rebuilding Zork's world with Claude: Fable vs everything that came before](https://posabsolute.github.io/2026/07/06/building-zork-with-fable.html) - Blog, July 2026
-- [Micro-frontends with module federation in practice](https://drive.google.com/file/d/1K0OWytOmc3tB21ohnBKv-tOQdn5xnQwY/view?usp=sharing) - Talk notes, Confoo 2023
+- [Micro-frontends with module federation in practice](https://www.youtube.com/watch?v=2idiBiCJwpI) - Talk, Confoo 2023 ([notes](https://drive.google.com/file/d/1K0OWytOmc3tB21ohnBKv-tOQdn5xnQwY/view?usp=sharing))
 - [Building an AI Chatbot With Node.js](https://drive.google.com/file/d/1yuiC54cJAdFXVi_fF-AKS8fjm1Ix-yp6/view?usp=sharing) - Talk notes, JS-Montreal 2023
 
 
