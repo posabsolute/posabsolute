@@ -8,7 +8,7 @@ export const DEV = {
     frontend: [React, React-Query, TanStack Table, Storybook, Vite, CSS Modules,
                Testing Library, Module Federation],
     backend: [Node, Express, Apollo, GraphQL, RabbitMQ, Kafka, Mongo],
-    ai: [Claude Code, Agent-Driven Development, Skills, Verification Workflows],
+    ai: [Claude Code, Cursor, Agent-Driven Development, Skills, Verification Workflows],
     ops: [Helm, Kubernetes, Docker, Jenkins],
   },
   experience: [
