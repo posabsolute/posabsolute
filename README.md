@@ -1,5 +1,5 @@
 
-<p><em>Currently working as a principal software developer, leading a team focused on scaling UI practices and building platform personalization services.</em> </p>
+<p><em>Principal software developer. I lead a team that scales UI practices across a large organization and builds platform personalization services.</em></p>
 
 ```javascript
 export const DEV = {
@@ -29,17 +29,17 @@ export const DEV = {
 
 ### Current side project
 
-- [Zork UI](https://zork.arobase.co) - The original 1980 Zork I running untouched in the browser, wrapped in 110 animated pixel-art scenes that track the live game. Built entirely with Claude Fable 5 - [source](https://github.com/posabsolute/zork-ui) (2026).
+- [Zork UI](https://zork.arobase.co) - The original 1980 Zork I in the browser, untouched, wrapped in 110 animated pixel-art scenes that react to the live game. Built entirely with Claude Fable 5 - [source](https://github.com/posabsolute/zork-ui) (2026).
 
 ### Cool but aging projects
 
 - [Inker](https://posabsolute.github.io/inker/) - A framework to build and send transactional emails (2015).
-- [Scrum Release Notes Mobile App](https://posabsolute.github.io/releasenotes/) - An easy way to stay informed on how your scrum projects are doing (2016).
+- [Scrum Release Notes Mobile App](https://posabsolute.github.io/releasenotes/) - A little app that tells you how your scrum projects are actually doing (2016).
 - [Grunt Generate](https://github.com/Grunt-generate/grunt-generate) - Generates files from user-defined templates (2014).
 
 ### Blog Posts
 
-For many years I maintained **position-absolute.com**, started at the height of jQuery, it was a great way to share my adventures. I have kept a few of my favorite posts here.
+For many years I maintained **position-absolute.com**, a blog started at the height of jQuery. It was a great way to share my adventures, and I kept a few favorite posts here.
 
 - [Rebuilding Zork's world with Claude: Fable vs everything that came before](https://posabsolute.github.io/2026/07/06/building-zork-with-fable.html) - July 6, 2026
 - [Exploring Cloudflare Workers](https://posabsolute.github.io/2024/05/28/cloudflare-worker.html) - May 28, 2024
@@ -56,8 +56,8 @@ For many years I maintained **position-absolute.com**, started at the height of 
 
 ### About my open source projects
   
-Once upon a time, I was a very active open source contributor. While I am proud of my contributions, most of these projects are older and do not use modern best practices.
+Once upon a time, I was a very active open source contributor. I am proud of that work, but most of it is old enough that you should not copy its practices.
 
-After a few quiet years (my previous attempt, [Inker2](https://github.com/posabsolute/inker2), a small Typescript email delivery service, was never completed), [Zork UI](https://github.com/posabsolute/zork-ui) brought me back to shipping open source in 2026.
+After a few quiet years (my previous attempt, [Inker2](https://github.com/posabsolute/inker2), a small Typescript email delivery service, never got finished), [Zork UI](https://github.com/posabsolute/zork-ui) brought me back to shipping open source in 2026.
 
-I also created and maintained for a couple of years one of the most popular [jQuery form validation](https://github.com/posabsolute/jQuery-Validation-Engine) libraries; it was launched on Google Code in 2011.
+I also created and maintained one of the most popular [jQuery form validation](https://github.com/posabsolute/jQuery-Validation-Engine) libraries. It launched on Google Code in 2011 and followed me around for years.
