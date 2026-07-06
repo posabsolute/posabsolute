@@ -3,23 +3,26 @@
 
 ```javascript
 export const DEV = {
-  code: [Javascript, Typescript, HTML, CSS, NO-SQL DB],
+  code: [Javascript, Typescript, HTML, CSS],
   tools: {
-    frontend: [React, React-Query, TanStack Table, Storybook, CSS Modules, Styled-Components,
-               Jest, Testing Library, Webpack, Module Federation],
+    frontend: [React, React-Query, TanStack Table, Storybook, Vite, CSS Modules,
+               Testing Library, Module Federation],
     backend: [Node, Express, Apollo, GraphQL, RabbitMQ, Kafka, Mongo],
+    ai: [Claude Code, agent-driven development, skills & verification workflows],
     ops: [Helm, Kubernetes, Docker, Jenkins],
+  },
   experience: [
-    "Expertise in building single page applications with modern javascript frameworks.",
-    "Implementing micro-frontends and UI practices in large organizations for UI flexibility.",
-    "Domain-Driven API Design, building node services, Monolith to Microservices transitions.",
-    "Containerization and orchestration with Docker & Kubernetes.",
+    "Large single-page apps that stay fast and coherent as teams grow.",
+    "Micro-frontends and UI platform practices across large organizations.",
+    "Node services, domain-driven APIs, monolith to microservices transitions.",
+    "Directing AI agents on real products, from pixel art to production deploys.",
   ],
 }
 ```   
 
-### Speaking Notes
+### Talks & Writing
 
+- [Rebuilding Zork's world with Claude: Fable vs everything that came before](https://posabsolute.github.io/2026/07/06/building-zork-with-fable.html) - Blog, July 2026
 - [Micro-frontends with module federation in practice](https://drive.google.com/file/d/1K0OWytOmc3tB21ohnBKv-tOQdn5xnQwY/view?usp=sharing) - Confoo 2023
 - [Building an AI Chatbot With Node.js](https://drive.google.com/file/d/1yuiC54cJAdFXVi_fF-AKS8fjm1Ix-yp6/view?usp=sharing) - JS-Montreal 2023
 
