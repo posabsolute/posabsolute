@@ -29,7 +29,7 @@ export const DEV = {
 
 ### Current side project
 
-- [Zork UI](https://zork.arobase.co) - The original 1980 Zork I in the browser, untouched, wrapped in 110 animated pixel-art scenes that react to the live game. Built entirely with Claude Fable 5 - [source](https://github.com/posabsolute/zork-ui) (2026).
+- [Zork UI](https://zork.arobase.co) - The original 1980 Zork I in the browser, untouched, wrapped in 110 animated pixel-art scenes that react to the live game. Built entirely with Anthropic's Fable 5 model - [source](https://github.com/posabsolute/zork-ui) (2026).
 
 ### Cool but aging projects
 
