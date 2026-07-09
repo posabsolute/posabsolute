@@ -22,7 +22,7 @@ export const DEV = {
 
 ### Talks & Writing
 
-- [Rebuilding Zork's world with Claude: Fable vs everything that came before](https://posabsolute.github.io/2026/07/06/building-zork-with-fable.html) - Blog, July 2026
+- [Rebuilding Zork's world with Claude: A Fable Tale](https://posabsolute.github.io/2026/07/06/building-zork-with-fable.html) - Blog, July 2026
 - [Micro-frontends with module federation in practice](https://www.youtube.com/watch?v=2idiBiCJwpI) - Talk, Confoo 2023 ([notes](https://drive.google.com/file/d/1K0OWytOmc3tB21ohnBKv-tOQdn5xnQwY/view?usp=sharing))
 - [Building an AI Chatbot With Node.js](https://drive.google.com/file/d/1yuiC54cJAdFXVi_fF-AKS8fjm1Ix-yp6/view?usp=sharing) - Talk notes, JS-Montreal 2023
 
@@ -41,7 +41,7 @@ export const DEV = {
 
 For many years I maintained **position-absolute.com**, a blog started at the height of jQuery. It was a great way to share my adventures, and I kept a few favorite posts here.
 
-- [Rebuilding Zork's world with Claude: Fable vs everything that came before](https://posabsolute.github.io/2026/07/06/building-zork-with-fable.html) - July 6, 2026
+- [Rebuilding Zork's world with Claude: A Fable Tale](https://posabsolute.github.io/2026/07/06/building-zork-with-fable.html) - July 6, 2026
 - [Exploring Cloudflare Workers](https://posabsolute.github.io/2024/05/28/cloudflare-worker.html) - May 28, 2024
 - [Exploring the Future of AI in Web Interfaces: Beyond Chatbots](https://posabsolute.github.io/2024/03/17/ai-txt.html) - March 17, 2024
 - [Navigating Transactional Email Development: A Historical Perspective and Some Solutions](https://posabsolute.github.io/2024/01/02/the-email-stack.html) - January 2, 2024
