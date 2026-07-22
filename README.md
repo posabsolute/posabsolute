@@ -45,7 +45,7 @@ For many years I maintained **position-absolute.com**, a blog started at the hei
 - [Revisiting ai.txt: the agent web arrived without it](https://posabsolute.github.io/2026/07/10/ai-txt-revisited.html) - July 10, 2026
 - [Rebuilding Zork's world with Claude: A Fable Tale](https://posabsolute.github.io/2026/07/06/building-zork-with-fable.html) - July 6, 2026
 - [Exploring Cloudflare Workers](https://posabsolute.github.io/2024/05/28/cloudflare-worker.html) - May 28, 2024
-- [Exploring the Future of AI in Web Interfaces: Beyond Chatbots](https://posabsolute.github.io/2024/03/17/ai-txt.html) - March 17, 2024
+- [ai.txt, a robots.txt for the AI era](https://posabsolute.github.io/2024/03/17/ai-txt.html) - March 17, 2024
 - [Navigating Transactional Email Development: A Historical Perspective and Some Solutions](https://posabsolute.github.io/2024/01/02/the-email-stack.html) - January 2, 2024
 - [Exploring Micro-Frontends with Module Federation: Insights from Practice](https://posabsolute.github.io/2023/05/06/micro-frontend.html)  - May 15, 2023
 - [Rethinking Workplace Communication: Beyond the Chaos of Constant Chats](https://posabsolute.github.io/2016/06/21/about-channels.html) - June 21, 2016
